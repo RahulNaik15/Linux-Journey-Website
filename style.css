@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+   background-color: #F7F7F7;
+}
 .header{
     background-color: #2c3e50;
     font-family: sans-serif;
@@ -12,6 +15,9 @@
     padding: 15px 150px;
     color: white;
     font-size: 20px;
+    position: fixed;
+    /* top:0; */
+    width: 100%;
 }
 button{
    width: 80px;
@@ -76,13 +82,16 @@ button{
    color: white;
  
 }
+button:hover{
+   background-color: #087a63;
+}
 .grass{
    text-align: center;
    color: gray;
    padding-top: 20px;
    padding-bottom: 20px;
 }
-.i1,.i2,.i3,.i4{
+.i1,.i2,.i3,.i4,.i5,.i6,.i7,.i8,.i9,.i10,.i11,.i12,.i13,.i14,.i15,.i16,.i17,.i18,.i19,.i20,.i21,.i22{
    border-radius: 50%;
    padding-top: 15px;
 }
@@ -95,66 +104,161 @@ h3,p{
    align-items: center;
    justify-content: space-evenly;
    padding: 15px 150px;
-
-}
-.img1{
-   height:340px;
-   width: 250px;
-   border: 2px solid black;
-   display: flex;
-   align-items: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 20px;
-   background-color: white;
-   border-radius: 5px;
    
 }
-.img2{
-   height: 340px;
+.img1,.img2,.img3,.img4{
+   height:370px;
    width: 250px;
-   border: 2px solid black;
+   border: 1px solid #ddd;
    display: flex;
    align-items: center;
+   padding: 35px 10px 25px 10px;
+   flex-direction: column;
+   gap: 20px;
+   background-color: white;
+   border-radius: 5px;
+   text-align: center;
+   
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover{
+   background-color: #18BC9C;
+}
+
+.card2,.card3,.card5,.Last{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 15px 150px;
+}
+.img5,.img6,.img7,.img8{
+
+   height: 370px;
+   width: 250px;
+   border: 1px solid #ddd;
+   display: flex;
+   padding: 35px 10px 25px 10px;
    align-items: center;
    flex-direction: column;
    gap: 20px;
    background-color: white;
    border-radius: 5px;
+   text-align: center;
 }
-.img3{
-   height: 340px;
+.img5:hover,.img6:hover,.img7:hover,.img8:hover{
+   background-color: #18BC9C;
+}
+
+.img9,.img10,.img11,.img12,.img16,.img17,.img18,.img19{
+      height: 370px;
       width: 250px;
-      border: 2px solid black;
+      border: 1px solid #ddd;
       display: flex;
-      align-items: center;
+      padding: 35px 10px 25px 10px;
       align-items: center;
       flex-direction: column;
       gap: 20px;
       background-color: white;
       border-radius: 5px;
+      text-align: center;
+
 }
-.img4{
-   height: 340px;
+.img9:hover,
+.img10:hover,
+.img11:hover,
+.img12:hover,
+.img13:hover,
+.img14:hover,
+.img15:hover,
+.img16:hover,
+.img17:hover,
+.img18:hover,
+.img19:hover,
+.img20:hover,
+.img21:hover,
+.img22:hover{
+   background-color: #18BC9C;
+}
+/* card 4/ card 6 */
+.card4,.card6{
+   display: flex;
+   align-items: center;
+   justify-content:left;
+   padding: 15px 193px;
+}
+
+.img13,.img14,.img15,.img20,.img21,.img22{
+      height: 370px;
       width: 250px;
-      border: 2px solid black;
+      border: 1px solid #ddd;
       display: flex;
-      align-items: center;
+      padding: 35px 10px 25px 10px;
       align-items: center;
       flex-direction: column;
       gap: 20px;
       background-color: white;
       border-radius: 5px;
+      text-align: center;
 }
-.img1:hover{
-   background-color: #18BC9C;
+.img13,.img14,.img20,.img21{
+   margin-right: 45px;
 }
-.img2:hover {
-   background-color: #18BC9C;
+
+.c1,
+.c2,
+.c3,
+.c4 {
+
+   height: 370px;
+   width: 250px;
+   border: 1px solid #ddd;
+   display: flex;
+   padding: 35px 10px 25px 10px;
+   align-items: start;
+   flex-direction: column;
+   /* gap: 20px; */
+   background-color: white;
+   border-radius: 5px;
+   text-align: center;
+   padding-top: 90px;
+   
 }
-.img3:hover {
-   background-color: #18BC9C;
+#a1,#a2,#a3,#a4{
+   text-decoration: none; /*removes underline from text written in anchor tag*/
+   color: #428bca;
 }
-.img4:hover {
+.footer-div{
+   margin-top: 60px;
+   display: flex;
+   align-items: center;
+   padding: 15px 150px;
+   justify-content: space-evenly;
+   background-color: 2c3e50;
+   color: white;
+   height: 200px;
+
+}
+h5{
+   text-align: center;
+   font-size: 25px;
+   font-weight: bold;
+}
+.f1,.f2,.f3{
+   height:100px ;
+   width: 280px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;  
+   gap: 10px;
+   font-family: sans-serif;
+}
+.p1,.p2,.p3{
+   color: white;
+}
+#anc,#anc1,#anc2{
+   text-decoration: none;
+      /*removes underline from text written in anchor tag*/
+      color: #428bca;
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover{
    background-color: #18BC9C;
 }
